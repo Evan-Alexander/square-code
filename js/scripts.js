@@ -5,6 +5,11 @@ removePunctuation = function(userInput){
   return finalString;
 }
 
+var getStringLength = function(finalString){
+  var stringLength = finalString.length;
+  return stringLength;
+}
+
 var squareSize = function(input) {
   for index
 }
