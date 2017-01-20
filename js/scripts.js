@@ -2,10 +2,12 @@
 var stringLength;
 var arrayLength = "";
 var arrayDepth = "";
+var finalString;
+var codeSquares = []
 
 removePunctuation = function(userInput){
   var punctuationless = userInput.replace(/[?.,\/#!$%\^&\*;:{}=\-_`~()]/g,"");
-  var finalString = punctuationless.replace(/\s/g,"");
+  finalString = punctuationless.replace(/\s/g,"");
   alert(finalString);
   return finalString;
 }
@@ -34,4 +36,12 @@ var squareSize = function() {
   };
   answersPlease = arrayLength;
 	return answersPlease;
+};
+
+var populateArray = function(){
+  for(lengthIndex = 0; lengthIndex< arrayLength; lengthIndex++){
+    for (depthIndex = 0; depthIndex < arrayDepth; depthIndex++){
+      Codesquares.push(finalString[0])
+    };
+  };
 };
